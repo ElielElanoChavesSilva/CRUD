@@ -1,0 +1,13 @@
+<h1>Atualizar produto</h1>
+<form *ngIf="product">
+    <mat-form-field>
+        <input matInput [(ngModel)]="product.nome" name="nome">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput [(ngModel)]="product.preco" name="preco">
+    </mat-form-field>
+    <div>
+        <button class="update" (click)="atualizar()" mat-button type="button">Atualizar</button>
+        <button class="back" mat-button routerLink="">Cancelar</button>
+    </div>
+</form>

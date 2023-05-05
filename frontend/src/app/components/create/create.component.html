@@ -1,0 +1,15 @@
+<form class="form">
+    <h1>Criar produto</h1>
+    <mat-form-field>
+        <mat-label>Nome</mat-label>
+        <input matInput [(ngModel)]="Product.nome" name="name">
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Preço</mat-label>
+        <input matInput [(ngModel)]="Product.preco" name="preco">
+    </mat-form-field>
+    <div class="botoes">
+        <button class="add" mat-button routerLink="" (click)="criar()">Adicionar</button>
+        <button class="back" mat-button routerLink="">Voltar</button>
+    </div>
+</form>

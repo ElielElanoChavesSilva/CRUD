@@ -1,0 +1,24 @@
+{
+  "usuarios": [
+    {
+      "id": 6,
+      "nome": "Caneta",
+      "preco": "3"
+    },
+    {
+      "id": 7,
+      "nome": "NotBook",
+      "preco": "1200"
+    },
+    {
+      "id": 8,
+      "nome": "Iphone SE",
+      "preco": "2000"
+    },
+    {
+      "id": 9,
+      "nome": "Mouse",
+      "preco": "49.99"
+    }
+  ]
+}

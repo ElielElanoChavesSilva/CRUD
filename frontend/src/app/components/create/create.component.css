@@ -1,0 +1,22 @@
+.form {
+    display: grid;
+    width: 100%;
+}
+
+input {
+    height: 30px !important;
+}
+
+.add {
+    background-color: rgb(106, 106, 247);
+    width: 90px;
+    height: 35px;
+    color: white;
+}
+
+.back {
+    margin-left: 20px;
+    background-color: rgb(216, 213, 213) !important;
+    color: rgb(106, 106, 247) !important;
+    border: 2px solid rgb(106, 106, 247) !important;
+}

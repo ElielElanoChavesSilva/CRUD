@@ -1,0 +1,11 @@
+a {
+    text-decoration: none;
+}
+
+table {
+    height: auto;
+}
+
+.edit {
+    color: rgba(255, 255, 255, 0.774) !important;
+}

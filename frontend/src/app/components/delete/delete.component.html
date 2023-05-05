@@ -1,0 +1,13 @@
+<h1>Excluir produto</h1>
+<form *ngIf="product">
+    <mat-form-field>
+        <input matInput [value]="product.nome" name="nome" disabled>
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput [value]="product.preco" name="preco" disabled>
+    </mat-form-field>
+    <div>
+        <button class="del" mat-button routerLink="/" (click)="delete()">Excluir</button>
+        <button class="cancel" mat-button routerLink="/">Voltar</button>
+    </div>
+</form>
